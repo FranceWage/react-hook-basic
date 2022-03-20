@@ -1,9 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Nav from "./components/Nav.js";
 
 function App() {
   return (
     <div className="App">
+      <Nav />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <h1>PHAP DEP Trai</h1>
+        <h1>PHAP DEP TRAI</h1>
       </header>
     </div>
   );
